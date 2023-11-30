@@ -88,12 +88,32 @@ body {
 .card-custom {
   box-shadow: #1c1e22 10px 10px 19px 0, #262a2e -10px -10px 19px 0;
   text-align: left;
-  padding: 30px 40px px 30px 40px;
   transition: 0.5s all ease-in-out;
   border-radius: 10px;
-  min-height: 27.5em;
+  min-height: 550px;
+  padding: 30px 40px;
+  color: white;
 }
+
 .card-custom > img {
   width: 50px;
+}
+.card-custom-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #c4cfde;
+}
+.card-custom-desc {
+  font-size: 17px;
+  line-height: 33px;
+}
+.svg-icon {
+  width: 60px;
+  height: auto;
+  margin-bottom: 29px;
+  border-radius: 10px;
+  filter: invert(76%) sepia(63%) saturate(5709%) hue-rotate(175deg)
+    brightness(96%) contrast(98%);
 }
 /* hero section */
