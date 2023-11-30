@@ -1,0 +1,99 @@
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #212428 !important;
+}
+#navbar-section {
+  padding: 40px 0;
+}
+.nav-item > .nav-link {
+  font-size: 19px;
+  color: #c4cfde;
+}
+
+/* hero section */
+#hero-section {
+  height: 120vh;
+  margin-bottom: 80px;
+}
+.hero-subtitle {
+  color: #c4cfde;
+  letter-spacing: 1px;
+  line-height: 14px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.hero-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 58px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.hero-desc {
+  font-size: 20px;
+  color: #c4cfde;
+  line-height: 1.7;
+}
+.hero-connect-text {
+  font-size: 16px;
+  font-weight: 300;
+  color: #c4cfde;
+}
+.list-inline-item {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 2px solid #212428;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: #1c1e22 10px 10px 19px 0, #262a2e -10px -10px 19px 0;
+  transition: 0.7s ease-out;
+}
+
+.list-inline-item > a > i {
+  font-size: 24px;
+  color: white !important;
+}
+.list-inline-item:hover {
+  transform: scale(1.1);
+}
+
+.highlight-text {
+  color: #20a4f3 !important;
+}
+.hero-img-container img {
+  margin-bottom: 50px;
+}
+.skill-upper-header .skill-subtitle {
+  letter-spacing: 1px;
+  line-height: 14px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #20a4f3;
+}
+.experience-text {
+  margin-top: 0;
+  margin-bottom: 22px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.card-custom {
+  box-shadow: #1c1e22 10px 10px 19px 0, #262a2e -10px -10px 19px 0;
+  text-align: left;
+  padding: 30px 40px px 30px 40px;
+  transition: 0.5s all ease-in-out;
+  border-radius: 10px;
+  min-height: 27.5em;
+}
+.card-custom > img {
+  width: 50px;
+}
+/* hero section */
