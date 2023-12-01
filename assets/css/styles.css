@@ -205,17 +205,20 @@ textarea {
   border-radius: 4px;
   font-size: 20px !important;
 }
-
+.img-col {
+  display: flex;
+  align-items: center;
+}
 .footer-header {
   margin-top: 0;
   margin-bottom: 22px;
-  font-size: 40px;
+  font-size: 35px;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   line-height: 1.2;
   color: #20a4f3;
 }
-.footer-list-container > li {
+.footer-list {
   font-size: 18px;
   margin-bottom: 8px;
   color: white;
