@@ -7,6 +7,15 @@
 body {
   background-color: #212428 !important;
 }
+.custom-card-bg {
+  background-color: #212428 !important;
+}
+.custom-card-text {
+  margin-bottom: 22px;
+  line-height: 30px;
+  font-size: 17px;
+  color: #c4cfde !important;
+}
 #navbar-section {
   padding: 40px 0;
 }
@@ -100,14 +109,11 @@ body {
 }
 .card-custom-title {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 32px;
   color: #c4cfde;
 }
-.card-custom-desc {
-  font-size: 17px;
-  line-height: 33px;
-}
+
 .svg-icon {
   width: 60px;
   height: auto;
@@ -117,3 +123,103 @@ body {
     brightness(96%) contrast(98%);
 }
 /* hero section */
+#experience-section {
+  padding-top: 130px;
+}
+
+.project-short-text {
+  color: #20a4f3;
+  letter-spacing: 1px;
+  display: block;
+  line-height: 14px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.project-heading {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+#project-section,
+#contact-section {
+  margin-top: 6rem;
+}
+.custom-card {
+  background-color: #212428 !important;
+  box-shadow: #1c1e22 10px 10px 19px 0, #262a2e -10px -10px 19px 0;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  border: none;
+}
+
+.card-title {
+  padding-top: 10px;
+  color: #fff !important;
+}
+
+.form-bg {
+  background-color: #212428 !important;
+  box-shadow: #1c1e22 10px 10px 19px 0, #262a2e -10px -10px 19px 0;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+.asterik {
+  font-size: 17px;
+  color: #d63637;
+}
+
+label {
+  font-family: "Montserrat", sans-serif;
+}
+input {
+  background-color: #191b1e !important;
+  border-radius: 3px;
+  color: #c4cfde !important;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.25) !important;
+}
+textarea {
+  background-color: #191b1e !important;
+  border-radius: 3px;
+  color: #c4cfde !important;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.25) !important;
+}
+.btn-custom {
+  width: 10% !important;
+  background-color: #066aab !important  ;
+  color: #fff !important;
+  padding: 10px 35px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px !important;
+}
+
+.footer-header {
+  margin-top: 0;
+  margin-bottom: 22px;
+  font-size: 40px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #20a4f3;
+}
+.footer-list-container > li {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: white;
+}
+.footer-end-text {
+  margin-top: 120px;
+}
