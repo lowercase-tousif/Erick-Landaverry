@@ -23,7 +23,9 @@ body {
   font-size: 19px;
   color: #c4cfde;
 }
-
+.nav-link:hover {
+  color: #20a4f3 !important;
+}
 /* hero section */
 #hero-section {
   height: 120vh;
@@ -85,14 +87,6 @@ body {
   font-size: 18px;
   color: #20a4f3;
 }
-.experience-text {
-  margin-top: 0;
-  margin-bottom: 22px;
-  font-family: Montserrat, sans-serif;
-  font-weight: 700;
-  line-height: 1.2;
-  color: #fff;
-}
 
 .card-custom {
   box-shadow: #1c1e22 10px 10px 19px 0, #262a2e -10px -10px 19px 0;
@@ -127,6 +121,45 @@ body {
   padding-top: 130px;
 }
 
+.experience-card-heading {
+  color: #c4cfde !important;
+  font-size: 27px;
+  line-height: 39px;
+  margin-bottom: 7px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.experience-card-subheading {
+  color: #7c838e !important;
+  display: block;
+  font-size: 17px;
+}
+
+.experience-card-year {
+  color: #20a4f3;
+  background-color: #212428 !important;
+  box-shadow: #1c1e22 10px 10px 19px 0, #262a2e -10px -10px 19px 0;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  border: none;
+  font-size: 14px;
+}
+.experience-card-upper {
+  border-bottom: 1px solid black;
+}
+.experience-card-text {
+  font-size: 19px;
+  line-height: 32px;
+  color: #c4cfde;
+}
+.experience-list-container > li {
+  color: #c4cfde;
+  list-style-type: disc;
+  margin-top: 20px;
+  font-size: 22px;
+}
 .project-short-text {
   color: #20a4f3;
   letter-spacing: 1px;
@@ -162,6 +195,8 @@ body {
   padding-top: 10px;
   color: #fff !important;
 }
+
+/* Form Section */
 
 .form-bg {
   background-color: #212428 !important;
@@ -205,6 +240,9 @@ textarea {
   border-radius: 4px;
   font-size: 20px !important;
 }
+/* Form Section */
+
+/* Footer section */
 .img-col {
   display: flex;
   align-items: center;
@@ -225,4 +263,19 @@ textarea {
 }
 .footer-end-text {
   margin-top: 120px;
+}
+/* footer section */
+
+.second-nav {
+  background-color: #212428 !important;
+  box-shadow: #1c1e22 10px 10px 19px 0, #262a2e -10px -10px 19px 0;
+  padding: 30px 10px;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+}
+.second-nav > li:hover {
+  box-shadow: #1c1e22 10px 10px 19px 0, #262a2e -10px -10px 19px 0;
+  padding: inherit;
 }
